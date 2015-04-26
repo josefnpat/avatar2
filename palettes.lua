@@ -118,7 +118,37 @@ local palettes = {
       lines_dark   = "#8E8B57",
       lines_light  = "#C3C4A5",
     }
-  }
+  },
+  nes = {
+    note = "Famicom/NES",
+    colors = {
+      body        = "#F0D0B0",
+      body_edge   = "#004058",
+      background  = "#A4E4FC",
+      lines_dark  = "#F85898",
+      lines_light = "#F8B8F8",
+    }
+  },
+  zx_spectrum = {
+    note = "ZX Spectrum",
+    colors = {
+      body        = "#FFFFFF",
+      body_edge   = "#000000",
+      background  = "#00FFFF",
+      lines_dark  = "#FF00FF",
+      lines_light = "#f1cce0",
+    }
+  },
+  cga4m4hi = {
+    note = "CGA 4-color Mode 4 palette #1 low intensity",
+    colors = {
+      body        = "#FF55FF",
+      body_edge   = "#000000",
+      background  = "#FFFFFF",
+      lines_dark  = "#FF55FF",
+      lines_light = "#55FFFF",
+    }
+  },
 }
 
 return palettes
