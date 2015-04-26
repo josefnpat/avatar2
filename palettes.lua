@@ -149,6 +149,16 @@ local palettes = {
       lines_light = "#55FFFF",
     }
   },
+  pikachu = {
+    note = "Pikachu",
+    colors = {
+      body        = "#FBCD3C",
+      body_edge   = "#323232",
+      background  = "#FBCD3C",
+      lines_dark  = "#802527",
+      lines_light = "#DD666A",
+    }
+  },
 }
 
 return palettes
