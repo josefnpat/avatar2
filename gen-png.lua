@@ -13,8 +13,10 @@ end
 local width=1600*scale
 local height=1600*scale
 
--- Main
-os.execute("inkscape -z -e "..prefix.."-avatar.png"..
-  " -w "..width..
-  " -h "..height..
-  " "..prefix.."-avatar.svg")
+for _,v in pairs({"avatar","avatar-classic"}) do
+  -- Main
+  os.execute("inkscape -z -e "..prefix.."-"..v..".png"..
+    " -w "..width..
+    " -h "..height..
+    " "..prefix.."-avatar.svg")
+end

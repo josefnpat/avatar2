@@ -3,7 +3,7 @@ local palettes = {
     note = "Romance Bloody Romance: Remixes & B-Sides",
     colors = {
       body        = "#f3b390",
-      body_edge   = "#000000",
+      body_edge   = "#262b31",
       background  = "#5fbfde",
       lines_dark  = "#e94496",
       lines_light = "#f1cce0",
@@ -57,6 +57,16 @@ local palettes = {
       background  = "#383838",
       lines_dark  = "#383838",
       lines_light = "#383838",
+    }
+  },
+  physicalworld = {
+    note = "The Physical World",
+    colors = {
+      body        = "#F9F2E0",
+      body_edge   = "#010101",
+      background  = "#CCBFAF",
+      lines_dark  = "#CCBFAF",
+      lines_light = "#CCBFAF",
     }
   },
   dmg_default = {

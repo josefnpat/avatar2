@@ -16,18 +16,20 @@ else
   return
 end
 
-if reverse then
-  print("rendering palette `"..palette_name.."` in reverse.")
-  --os.execute("cp avatar.src avatar.src.backup")
-  os.execute("cp "..palette_name.."-avatar.svg avatar.src")
-  for name,color in pairs(palettes[palette_name].colors) do
-    os.execute("sed -i 's/"..color.."/%%"..name.."%%/' avatar.src")
+for _,v in pairs({"avatar","avatar-classic"}) do
+
+  if reverse then
+    print("rendering palette `"..palette_name.."` in reverse.")
+    os.execute("cp "..palette_name.."-"..v..".svg "..v..".src")
+    for name,color in pairs(palettes[palette_name].colors) do
+      os.execute("sed -i 's/"..color.."/%%"..name.."%%/' "..v..".src")
+    end
+  else
+    print("rendering palette `"..palette_name.."`")
+    os.execute("cp "..v..".src "..palette_name.."-"..v..".svg")
+    for name,color in pairs(palettes[palette_name].colors) do
+      os.execute("sed -i 's/%%"..name.."%%/"..color.."/' "..palette_name.."-"..v..".svg")
+    end
   end
-else
-  print("rendering palette `"..palette_name.."`")
-  --os.execute("cp avatar.svg avatar.svg.backup")
-  os.execute("cp avatar.src "..palette_name.."-avatar.svg")
-  for name,color in pairs(palettes[palette_name].colors) do
-    os.execute("sed -i 's/%%"..name.."%%/"..color.."/' "..palette_name.."-avatar.svg")
-  end
+
 end
