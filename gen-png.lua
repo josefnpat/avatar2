@@ -18,5 +18,5 @@ for _,v in pairs({"avatar","avatar-classic"}) do
   os.execute("inkscape -z -e "..prefix.."-"..v..".png"..
     " -w "..width..
     " -h "..height..
-    " "..prefix.."-avatar.svg")
+    " "..prefix.."-"..v..".svg")
 end
