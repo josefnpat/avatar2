@@ -43,7 +43,7 @@ local palettes = {
     note = "Blood on Our Hands",
     colors = {
       body        = "#ffffff",
-      body_edge   = "#000000",
+      body_edge   = "#190E09",
       background  = "#bb241d",
       lines_dark  = "#bb241d",
       lines_light = "#bb241d",
@@ -67,6 +67,36 @@ local palettes = {
       background  = "#CCBFAF",
       lines_dark  = "#CCBFAF",
       lines_light = "#CCBFAF",
+    }
+  },
+  physicalworldlogo = {
+    note = "The Physical World",
+    colors = {
+      body        = "#F9F2E0",
+      body_edge   = "#010101",
+      background  = "#010101",
+      lines_dark  = "#010101",
+      lines_light = "#010101",
+    }
+  },
+  trainwreck1979 = {
+    note = "Trainwreck 1979",
+    colors = {
+      body        = "#FC4C56",
+      body_edge   = "#090002",
+      background  = "#FC4C56",
+      lines_dark  = "#FC4C56",
+      lines_light = "#FC4C56",
+    }
+  },
+  governmenttrash = {
+    note = "Government Trash",
+    colors = {
+      body        = "#F6F6EE",
+      body_edge   = "#0C0C0C",
+      background  = "#F6F6EE",
+      lines_dark  = "#F6F6EE",
+      lines_light = "#F6F6EE",
     }
   },
   dmg_default = {
