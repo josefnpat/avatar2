@@ -159,6 +159,16 @@ local palettes = {
       lines_light = "#DD666A",
     }
   },
+  halloween = {
+    note = "Halloween",
+    colors = {
+      body        = "#FFDF00",
+      body_edge   = "#1A1506",
+      background  = "#000000",
+      lines_dark  = "#DB7001",
+      lines_light = "#FFB700",
+    }
+  }
 }
 
 return palettes
