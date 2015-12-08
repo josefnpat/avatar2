@@ -168,7 +168,17 @@ local palettes = {
       lines_dark  = "#DB7001",
       lines_light = "#FFB700",
     }
-  }
+  },
+  xmas = {
+    note = "X-Mas",
+    colors = {
+      body        = "#CE6B5D",
+      body_edge   = "#941F1F",
+      background  = "#FFEFB9",
+      lines_dark  = "#34502B",
+      lines_light = "#7B9971",
+    }
+  },
 }
 
 return palettes
