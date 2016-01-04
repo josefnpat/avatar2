@@ -179,6 +179,16 @@ local palettes = {
       lines_light = "#FF9600",
     }
   },
+  givepulse = {
+    note = "GivePulse",
+    colors = {
+      body = "#FFFFFF",
+      body_edge = "#212121",
+      background = "#212121",
+      lines_dark = "#489def",
+      lines_light = "#00d8ca",
+    }
+  }
 }
 
 return palettes
