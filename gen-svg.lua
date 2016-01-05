@@ -2,6 +2,19 @@
 
 palettes = require("palettes")
 
+function string.ends(String,End)
+  return End=='' or string.sub(String,-string.len(End))==End
+end
+
+-- Default opacity parameters
+for pi,pv in pairs(palettes) do
+  for ci,cv in pairs(pv.colors) do
+    if not string.ends(ci,"_opacity") then
+      pv.colors[ci.."_opacity"] = pv.colors[ci.."_opacity"] or 1
+    end
+  end
+end
+
 reverse = arg[2] == "reverse"
 if arg and arg[1] and palettes[arg[1]] then
   palette_name = arg[1]

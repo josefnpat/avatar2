@@ -1,0 +1,5 @@
+#!/bin/bash
+
+shopt -s extglob
+
+montage !(_gen_*|montage).png montage.png

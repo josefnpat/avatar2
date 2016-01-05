@@ -191,4 +191,26 @@ local palettes = {
   }
 }
 
+for _,section in pairs({"body","body_edge","background","lines_dark","lines_light"}) do
+  local temp = {
+    note = "_gen for "..section,
+    colors = {
+      body        = "#ffffff",
+      body_opacity = 0,
+      body_edge   = "#ffffff",
+      body_edge_opacity = 0,
+      background  = "#ffffff",
+      background_opacity = 0,
+      lines_dark  = "#ffffff",
+      lines_dark_opacity = 0,
+      lines_light = "#ffffff",
+      lines_light_opacity = 0,
+    }
+  }
+  temp.colors[section.."_opacity"] = nil
+
+  palettes["_gen_"..section] = temp
+
+end
+
 return palettes
