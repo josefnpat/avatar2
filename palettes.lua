@@ -188,7 +188,27 @@ local palettes = {
       lines_dark = "#489def",
       lines_light = "#00d8ca",
     }
-  }
+  },
+  pico8 = {
+    note = "Pico8",
+    colors = {
+      body = "#ffccaa",
+      body_edge = "#000000",
+      background = "#29adff",
+      lines_dark = "#ff004d",
+      lines_light = "#ff77a8",
+    }
+  },
+  mss = {
+    note = "Missing Sentinel Software",
+    colors = {
+      body        = "#FFFFFF",
+      body_edge   = "#000000",
+      background  = "#000000",
+      lines_dark  = "#52429D",
+      lines_light = "#52429D",
+    }
+  },
 }
 
 for _,section in pairs({"body","body_edge","background","lines_dark","lines_light"}) do
