@@ -209,6 +209,16 @@ local palettes = {
       lines_light = "#52429D",
     }
   },
+  ac = {
+    note = "Certain Affinity",
+    colors = {
+      body        = "#FFFFFF",
+      body_edge   = "#000000",
+      background  = "#000000",
+      lines_dark  = "#ee1b24",
+      lines_light = "#ee1b24",
+    }
+  },
 }
 
 for _,section in pairs({"body","body_edge","background","lines_dark","lines_light"}) do
