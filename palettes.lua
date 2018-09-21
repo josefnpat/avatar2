@@ -209,7 +209,7 @@ local palettes = {
       lines_light = "#52429D",
     }
   },
-  ac = {
+  ca = {
     note = "Certain Affinity",
     colors = {
       body        = "#FFFFFF",
@@ -217,6 +217,16 @@ local palettes = {
       background  = "#000000",
       lines_dark  = "#ee1b24",
       lines_light = "#ee1b24",
+    }
+  },
+  bhm = {
+    note = "Black Hive Media",
+    colors = {
+      body        = "#FFFFFF",
+      body_edge   = "#000000",
+      background  = "#000000",
+      lines_dark  = "#FFFFFF",
+      lines_light = "#FFFFFF",
     }
   },
 }
