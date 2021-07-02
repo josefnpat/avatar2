@@ -229,6 +229,26 @@ local palettes = {
       lines_light = "#FFFFFF",
     }
   },
+  fc = {
+    note = "Fusion Constructive",
+    colors = {
+      body        = "#ffffff",
+      body_edge   = "#d62920",
+      background  = "#ffffff",
+      lines_dark  = "#ee2e24",
+      lines_light = "#ee2e24",
+    },
+  },
+  fcd = {
+    note = "Fantasy Consoles Discord",
+    colors = {
+      body        = "#f9ede5",
+      body_edge   = "#ef0048",
+      background  = "#75214e",
+      lines_dark  = "#ef0048",
+      lines_light = "#f9ede5",
+    },
+  },
 }
 
 for _,section in pairs({"body","body_edge","background","lines_dark","lines_light"}) do
